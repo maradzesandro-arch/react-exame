@@ -1,0 +1,38 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #111827;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.main-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-link {
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 999px;
+  transition: 0.2s ease;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.nav-link.active {
+  background: #3b82f6;
+  color: #fff;
+}
